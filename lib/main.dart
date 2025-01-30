@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Posts',
-        theme: ThemeData(useMaterial3: true),
+        theme: ThemeData(),
         home: const PostScreen(),
       ),
     );

@@ -11,8 +11,9 @@ class PostScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: white,
       appBar: AppBar(
-        title: const Text("Posts"),
+        title: const Text("Posts", style: TextStyle(color: white),),
         backgroundColor: blue,
       ),
       body: SafeArea(
